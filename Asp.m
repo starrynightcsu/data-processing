@@ -4,4 +4,4 @@ ez(1:2048,1:1332)=Fields.ez
 for i=1:2048
     ezgain(i,1:1332)=ez(i,1:1332)*i.^2; % 随着sample的增加，对数据做增益
 end
-
+save ezgain
